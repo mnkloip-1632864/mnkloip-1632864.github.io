@@ -2,7 +2,8 @@
 max width 
 dotted border
 hover
-
+double border
+opacity
 
 
 */
@@ -27,6 +28,7 @@ hover
 	margin-bottom: 10px;
 	border: solid 8px black;
 	padding-bottom: 8px;
+	border-style: double;
 }
 
 #Content {
@@ -37,6 +39,7 @@ hover
 	margin-bottom: 10px;
 	border: solid 8px black;
 	padding: 15px;
+
 }
 
 p{
@@ -74,7 +77,8 @@ ul{
 
 body{
 	background-image: url('dark_wood.png');
-	filter: alpha(opacity=5.0);
+	opacity: 0.5;
+	filter: alpha(opacity=50);
 }
 
 div{
